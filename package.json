@@ -1,0 +1,11 @@
+{
+  "name": "puppies",
+  "version": "1.0.0",
+  "description": "Sandbox for puppeteer",
+  "main": "index.js",
+  "author": "Lee",
+  "license": "MIT",
+  "devDependencies": {
+    "puppeteer": "^2.1.1"
+  }
+}
