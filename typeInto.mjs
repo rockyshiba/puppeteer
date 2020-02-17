@@ -23,9 +23,9 @@ import puppeteer from "puppeteer";
 
 /**
  * Simulates a user selecting a selector, clicking 3 times into it to select all text, then typing to replace that text, then pressing Enter
- * @param {object} page     page object initated by puppeteer
+ * @param {object} page     Page object initated by puppeteer
  * @param {string} selector CSS selector, usually an input
- * @param {string} text     text for the selector
+ * @param {string} text     Text for the selector
  */
 async function typeSelectorEnter(page, selector, text) {
     const input = await page.$(selector);
